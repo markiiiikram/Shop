@@ -1,0 +1,46 @@
+.carousel-img {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-img {
+  object-fit: cover;
+  filter: brightness(0.5);
+  height: 100%;
+  width: 100%;
+}
+.bg-img-1 {
+  /* background-image: url(/img/Banner/TheyAreUs.jpeg); */
+}
+.bg-img-2 {
+  background-image: url(/img/Banner/AstroBetty.jpeg);
+}
+.bg-img-3 {
+  background-image: url(/img/Banner/ColorBlocks.jpeg);
+}
+
+.body {
+  background-color: black !important;
+  color: #fff;
+}
+.car-head {
+  font-size: calc(1rem + 2vw);
+}
+.car-main {
+  font-size: calc(1rem + 3vw);
+}
+.car-p {
+  font-size: calc(1rem + 1.5vw);
+}
+
+@media (max-width: 380px) {
+  .car-head {
+    margin-top: 0 !important;
+  }
+}
+@media (min-width: 601px) {
+  .carousel-img {
+    height: 50vh;
+  }
+}
